@@ -1,39 +1,42 @@
 # Site
-repository: sproogen/resume-theme
+repository: mbaharan.github.io
 favicon: images/favicon.ico
 
 # Content configuration version
 version: 2
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: Reza Baharani
+title: Ph.D. in Computer Engeering
+email: mbaharan@uncc.edu
+website: mbaharan.github.io
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
+#twitter_username: facespics
+github_username:  mbaharan
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
+#instagram_username: jameswgrant
+linkedin_username: mbaharani
 # xing_username: jekyll
 # pinterest_username: jekyll
-youtube_username: globalmtb
+#youtube_username: globalmtb
 # googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
+orcid_username: 0000-0002-7844-3181
 
 # Additional icon links
 additional_links:
-- title: itsgoingto.be
+- title: mbaharan.github.io
   icon: fas fa-globe
-  url: https://www.itsgoingto.be
+  url: https://mbaharan.github.io
+- title: Google Scholar
+  icon: fas fa-graduation-cap
+  url: https://scholar.google.com/citations?user=LjWpX1AAAAAJ&hl=en
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -48,29 +51,95 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  Hi, my name is Reza Baharani, and I have a Ph.D. degree in computer engineering. My thesis was about hardware acceleration and implementation of deep separable convolutional neural networks for micro-controller and FPGA platforms with a focus on both spatial (visual) and temporal (time series) domains.
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  <mark>Python</mark>, <mark>C</mark>, and <mark>C++</mark> are my most proficient software programming languages, and <mark>SystemVerilog</mark> and <mark>VHDL</mark> are my best hardware modeling languages. <mark>PyTorch</mark> is also my main framework for modeling DNNs.
 
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
+        title:  Agile Temporal Convolutional Network (ATCN)
+        link: https://arxiv.org/pdf/2011.05260.pdf
         # link_text: Project Website
         additional_links:
-          - title:  sproogen/modern-resume-theme
+          - title:  github.com/TeCSAR-UNCC/ATCN
             icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
+            url: https://github.com/TeCSAR-UNCC/ATCN
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+          Resource-Efficient Processing of Time Series on Edge
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          One dimension of deep learning, which has recently emerged in Cyber-Physical Systems (CPS), is time series analysis and forecasting. Recurrent networks, especially two elaborated models, namely, LSTM and GRU, are synonymous with time series analysis due to its notable success in sequence modeling problems. However, these models suffer from two significant issues: 1) gradient instability and 2) fewer levels of parallelization. I am currently working on a novel extension of TCN  for light-weight real-time sequence processing on embedded and edge devices for CPS applications. I have methodologically applied the acquired techniques in computer vision to TCN to decrease computational complexity and the model size of TCN to make it applicable for edge devices.
+
+      - layout: top-middle
+        title:  DeepDive
+        link: https://arxiv.org/pdf/2007.09490.pdf
+        # link_text: Project Website
+        #additional_links:
+        #  - title:  github.com/TeCSAR-UNCC/ATCN
+        #    icon: fab fa-github
+        #    url: https://github.com/TeCSAR-UNCC/ATCN
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          An Integrative Algorithm/Architecture Co-Design for Deep Separable Convolutional Neural Networks
+        description: | # this will include new lines to allow paragraphs
+          I helped and mentored three master students to develop a fully vertical framework, named DeepDive, for agile implementation of state-of-the-art deep separable convolutions such as MobileNetV2 and EfficientNet families for the Xilinx Ultrascale Zynq MPSoC and U50 FPGA platforms.
+
+      - layout: top-middle
+        title:  DeepTrack
+        link: https://arxiv.org/pdf/2108.00505.pdf
+        # link_text: Project Website
+        #additional_links:
+        #  - title:  github.com/TeCSAR-UNCC/ATCN
+        #    icon: fab fa-github
+        #    url: https://github.com/TeCSAR-UNCC/ATCN
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          Lightweight Deep Learning for Vehicle Trajectory Prediction in Highways
+        description: | # this will include new lines to allow paragraphs
+          For real-time vehicle trajectory prediction in highways, I developed DeepTrack as an agile algorithm with smaller model size and lower computational requirements. Contrary to previous methods, which used LSTMs, the vehicle dynamics were encoded with Agile Temporal Convolutional Networks (ATCNs) to provide more accurate time prediction with fewer computations.
+
+      - layout: top-middle
+        title:  Deep RACE
+        link: https://arxiv.org/pdf/1908.01244.pdf
+        # link_text: Project Website
+        additional_links:
+          - title:  github.com/TeCSAR-UNCC/Deep_RACE
+            icon: fab fa-github
+            url: https://github.com/TeCSAR-UNCC/Deep_RACE
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          Real-time deep learning at the edge for scalable reliability modeling of Si-MOSFET power electronics converters
+        description: | # this will include new lines to allow paragraphs
+          Deep Learning Reliability Awareness of Converters at the Edge (Deep RACE) is a novel approach that allows for real-time reliability modeling and prediction of MOSFETs power electronics converters. Deep RACE offers a holistic solution that comprises algorithm advances and full system integration (from the cloud down to the edge node) to create a near real-time reliability awareness. On the algorithm side, we proposed a deep learning algorithmic solution based on stacked LSTM for collective reliability training and inference across multiple MOSFET converters.
+
+      - layout: top-middle
+        title:  REVAMP<sup>2</sup>T
+        link: https://arxiv.org/pdf/1911.09217.pdf
+        # link_text: Project Website
+        additional_links:
+          - title:  github.com/TeCSAR-UNCC/Edge-Video-Analytic
+            icon: fab fa-github
+            url: https://github.com/TeCSAR-UNCC/Edge-Video-Analytic
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          Real-Time Edge Video Analytics for Multicamera Privacy-Aware Pedestrian Tracking
+        description: | # this will include new lines to allow paragraphs
+         As communities utilize technologies such as smart traffic cameras, the resulting data enables detection of suspicious activity and anomaly behavior, as well as crowd behavior analysis. My involvement in this project included Multi-Target Multi-Camera Tracking (MTMCT). Two subtasks can be identified in MTMCT: 1) target reidentification (reID) and 2) target trajectory. The MTMCT is a drastically difficult task due to having multiple cameras with no overlapping scenes and an unknown number of people seen in the cameras. Our team worked on an ensemble of deep neural networks, such as ResNet-50, MobileNet-V2, tinyYOLO, and OpenPose, to reID a target and process its trajectory.
+
+
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -90,9 +159,9 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
+        title: UNC, Charlotte
+        caption: 2017 - 2021
+        sub_title: Ph.D. 
         quote: >
           Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
