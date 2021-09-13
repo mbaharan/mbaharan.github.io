@@ -56,6 +56,27 @@ about_content: | # this will include new lines to allow paragraphs
   <mark>Python</mark>, <mark>C</mark>, and <mark>C++</mark> are my most proficient software programming languages, and <mark>SystemVerilog</mark> and <mark>VHDL</mark> are my best hardware modeling languages. <mark>PyTorch</mark> is also my main framework for modeling DNNs.
 
 content:
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: UNC, Charlotte
+        caption: 2017 - 2021
+        sub_title: Ph.D. 
+        #quote: >
+        #  Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        description: | # this will include new lines to allow paragraphs
+          When I was a student at UNC Charlotte, I learned almost all the key skills in the field of machine learning and specifically deep learning in both the spatial (visual) and temporal dimensions. Furthermore, I have developed my skills as a team member and learned how to manage a group of talented individuals to implement and accomplish our desired goals.
+
+      - layout: left
+        title: The University of Tehran
+        caption: 2009 - 2012
+        sub_title: Master
+        #quote: >
+        #  Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        description: | # this will include new lines to allow paragraphs
+          I have pursued my dream of becoming a hardware engineer at the University of Tehran. It was during my education that I learned the fundamental skills and knowledge of computer architecture, hardware modeling, and hardware verification. Design space exploration of a hardware implementation of neuro-fuzzy models was my first project relating to the hardware acceleration of machine learning algorithms.
+
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -89,7 +110,23 @@ content:
         quote: >
           An Integrative Algorithm/Architecture Co-Design for Deep Separable Convolutional Neural Networks
         description: | # this will include new lines to allow paragraphs
-          I helped and mentored three master students to develop a fully vertical framework, named DeepDive, for agile implementation of state-of-the-art deep separable convolutions such as MobileNetV2 and EfficientNet families for the Xilinx Ultrascale Zynq MPSoC and U50 FPGA platforms.
+          I led a team of three master students to develop a fully vertical framework, named DeepDive, for agile implementation of state-of-the-art deep separable convolutions such as MobileNetV2 and EfficientNet families for the Xilinx Ultrascale Zynq MPSoC FPGA platforms.
+
+      - layout: top-middle
+        title:  Tufan
+        #link: https://arxiv.org/pdf/2007.09490.pdf
+        # link_text: Project Website
+        #additional_links:
+        #  - title:  github.com/TeCSAR-UNCC/ATCN
+        #    icon: fab fa-github
+        #    url: https://github.com/TeCSAR-UNCC/ATCN
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          Low-Power Throughput Architecture for Acceleration of EfficientNet on Cloud FPGAs
+        description: | # this will include new lines to allow paragraphs
+          Tunan is an extension of DeepDive-Backend designed to support low-power throughput-oriented EfficientNet inference on cloud FPGA platforms such as Alveo U50.
 
       - layout: top-middle
         title:  DeepTrack
@@ -139,47 +176,107 @@ content:
         description: | # this will include new lines to allow paragraphs
          As communities utilize technologies such as smart traffic cameras, the resulting data enables detection of suspicious activity and anomaly behavior, as well as crowd behavior analysis. My involvement in this project included Multi-Target Multi-Camera Tracking (MTMCT). Two subtasks can be identified in MTMCT: 1) target reidentification (reID) and 2) target trajectory. The MTMCT is a drastically difficult task due to having multiple cameras with no overlapping scenes and an unknown number of people seen in the cameras. Our team worked on an ensemble of deep neural networks, such as ResNet-50, MobileNet-V2, tinyYOLO, and OpenPose, to reID a target and process its trajectory.
 
-
-
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: The Boring Company
-        link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
+      - layout: top-middle
+        title:  CDFG of X86 Instructions
+        #link: https://arxiv.org/pdf/1911.09217.pdf
+        # link_text: Project Website
+        #additional_links:
+        #  - title:  github.com/TeCSAR-UNCC/Edge-Video-Analytic
+        #    icon: fab fa-github
+        #    url: https://github.com/TeCSAR-UNCC/Edge-Video-Analytic
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+          Dependency graph extraction from X86 and ARM assembly codes
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+         I worked on implementing a front-end for a VLIW-like processor which would issue instructions based on their dependencies beyond the scope of basic blocks. Hence, I created a Python code to analyze the dependency graph of X86 and ARM instructions and identify independent instructions across various basic blocks to increase overall Instruction Per Cycle (IPC).
 
-  - title: Education # Title for the section
+      - layout: top-middle
+        title:  FPGA Engineer Intern
+        #link: https://arxiv.org/pdf/1911.09217.pdf
+        # link_text: Project Website
+        #additional_links:
+        #  - title:  github.com/TeCSAR-UNCC/Edge-Video-Analytic
+        #    icon: fab fa-github
+        #    url: https://github.com/TeCSAR-UNCC/Edge-Video-Analytic
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          Astranis Space Technologies Corp.
+        
+        description: | # this will include new lines to allow paragraphs
+         I designed and verified a generic True Dual-Port Memory for Microsemi RTG4 FPGA in SystemVerilog.
+
+      - layout: top-middle
+        title:  FPGA Engineer Intern
+        #link: https://arxiv.org/pdf/1911.09217.pdf
+        # link_text: Project Website
+        #additional_links:
+        #  - title:  github.com/TeCSAR-UNCC/Edge-Video-Analytic
+        #    icon: fab fa-github
+        #    url: https://github.com/TeCSAR-UNCC/Edge-Video-Analytic
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          Astranis Space Technologies Corp.
+        description: | # this will include new lines to allow paragraphs
+         I developed a generic Bus Functional Modeling (BFM) of AXI Stream (AXIS) based on Object-Oriented Programming (OOP) and callback functions to model different flavors of AXIS in SystemVerilog.
+
+  - title: Teaching and Academic Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
         title: UNC, Charlotte
-        caption: 2017 - 2021
-        sub_title: Ph.D. 
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        #link: boringcompany.com
+        # link_text: boringcompany.com
+        # sub_title: Senior Network System Administrator
+        caption: Aug 2017 - Aug 2021
+        #quote: >
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+          - Developed a simulator for G-Share, one-level, two-level global, two-level local branch predictors in python.
+          - Developed a parameterized cache simulator in python.
+          - TA for Advanced Embedded System Design
+          - TA for Network Theory I
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+      - layout: left
+        title: Ferdowsi University of Mashhad
+        #link: boringcompany.com
+        # link_text: boringcompany.com
+        # sub_title: Senior Network System Administrator
+        caption: Jan 2013 - March 2017
+        #quote: >
+        description: | # this will include new lines to allow paragraphs
+          - Lecturer in digital system design for FPGA platforms
+          - Thermal management of SMT and non-SMT high-performance homogenous multi-core processors
+          - Cross-compiling Linux and developing customized drivers for NIOS II soft-core processor
 
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+      - layout: left
+        title: Higher Education of Bahar
+        #link: boringcompany.com
+        # link_text: boringcompany.com
+        # sub_title: Senior Network System Administrator
+        caption: Sept 2014 - March 2015
+        #quote: >
+        description: | # this will include new lines to allow paragraphs
+          - Lecturer in Computer Architecture
+          - Lecturer in Digital Logic Circuit Desing
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+
+  #- title: A Little More About Me
+  #  layout: text
+  #  content: | # this will include new lines to allow paragraphs
+  #    Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+  #    - Rock climbing
+  #    - Gaming
+  #    - Knitting
+  #    - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+
+      #Look at this cool image  
+
+#![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
