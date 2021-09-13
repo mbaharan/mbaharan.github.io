@@ -225,7 +225,7 @@ content:
         description: | # this will include new lines to allow paragraphs
          I developed a generic Bus Functional Modeling (BFM) of AXI Stream (AXIS) based on Object-Oriented Programming (OOP) and callback functions to model different flavors of AXIS in SystemVerilog.
 
-  - title: Teaching and Academic Experience # Title for the section
+  - title: Teaching and Academic Experiences # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
