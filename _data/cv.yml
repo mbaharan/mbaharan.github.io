@@ -1,0 +1,80 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Mohammadreza (Reza) Baharani
+    - name: Languages
+      value: English, Persian
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Senior AI Engineer
+      institution: ForesightCares Inc., Charlotte, NC
+      year: 2022 - Present
+      description:
+        - Real-time 3D human pose estimation on iPad achieving 30fps inference for clinical mobility assessments (CDC STEADI protocols)
+        - Multi-stage signal processing pipeline for clinical-grade gait analysis and joint angle computation
+        - On-device AI inference using CoreML and SceneKit, eliminating cloud dependencies
+        - Co-inventor, US Patent 12,343,138 B2 - AI-Powered Mobility Assessment System
+        - 3D motion capture dataset collection using IMU-based mocap (100+ subjects, synchronized 60fps video and 400Hz motion data)
+
+    - title: Research Scientist
+      institution: UNC Charlotte (TeCSAR Lab), Charlotte, NC
+      year: 2021 - 2022, 2024 - 2025
+      description:
+        - Self-supervised human motion foundation model (MoFM) using discrete tokenization and Vision Transformer pretraining
+        - Scalable intelligent video surveillance for AIoT (Ancilia, REVAMP2T) with 89 and 93 citations respectively
+
+    - title: Graduate Research Assistant
+      institution: UNC Charlotte (TeCSAR Lab), Charlotte, NC
+      year: 2017 - 2021
+      description:
+        - ATCN - Attention-based temporal convolutional networks for time-series classification on edge devices (ACM TECS)
+        - DeepTrack - Lightweight vehicle trajectory prediction using TCNs (IEEE TITS, 97 citations)
+        - LSTM-based real-time reliability prediction for IoT edge devices (IEEE IoT Journal, 74 citations)
+        - Algorithm/architecture co-design framework (DeepDive) for FPGA-based DNN acceleration
+        - Published 12+ peer-reviewed papers, 645+ citations, h-index 11
+
+- title: Education
+  type: time_table
+  contents:
+    - title: Ph.D. in Electrical and Computer Engineering
+      institution: University of North Carolina at Charlotte
+      year: 2017 - 2021
+      description:
+        - Computer Architecture and Deep Learning
+        - Advisor - Prof. Hamed Tabkhi (TeCSAR Lab)
+
+- title: Technical Skills
+  type: nested_list
+  contents:
+    - title: Languages & Frameworks
+      items:
+        - Python, PyTorch, TensorFlow, CoreML, CUDA, C/C++, Swift
+    - title: Tools & Platforms
+      items:
+        - Docker, AWS (Lambda, S3, DynamoDB), Git, Linux, iOS/iPadOS
+    - title: Domains
+      items:
+        - Signal Processing, Computer Vision, Human Motion Understanding, Self-Supervised Learning, Edge AI, Time-Series Analysis
+
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 2025
+      items:
+        - US Patent 12,343,138 B2 - AI Powered Mobility Assessment System
+    - year: 2022
+      items:
+        - 645+ citations across IEEE and ACM publications
+        - h-index 11
+
+- title: Research Interests
+  type: list
+  contents:
+    - Health Sensing & Biomedical Signal Processing
+    - On-Device Machine Learning (CoreML, TensorFlow Lite)
+    - 3D Human Pose Estimation & Motion Understanding
+    - Self-Supervised Learning & Foundation Models
+    - Edge AI & Embedded Systems
