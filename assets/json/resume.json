@@ -32,7 +32,6 @@
       "position": "Senior AI Engineer",
       "startDate": "2022-01-01",
       "endDate": "",
-      "location": "Charlotte, NC",
       "highlights": [
         "Architected and deployed real-time 3D human pose estimation pipeline on iPad achieving 30fps inference for clinical mobility assessments (CDC STEADI: TUG, 30-Second Chair Stand, 4-Stage Balance)",
         "Engineered on-device AI inference system using CoreML and SceneKit, eliminating cloud dependencies and reducing model bundle size by migrating from third-party ML frameworks to native Apple infrastructure",
@@ -50,7 +49,6 @@
       "position": "Research Scientist",
       "startDate": "2024-10-01",
       "endDate": "2025-03-01",
-      "location": "Charlotte, NC",
       "highlights": [
         "Developed self-supervised human motion foundation model using discrete motion tokenization and Vision Transformer pretraining, achieving competitive action classification (89.4%), one-shot recognition (57.4%), and anomaly detection (76.56% AUC-ROC) with a single unified backbone"
       ]
@@ -60,7 +58,6 @@
       "position": "Postdoctoral Researcher",
       "startDate": "2021-08-01",
       "endDate": "2022-12-01",
-      "location": "Charlotte, NC",
       "highlights": [
         "Architected scalable intelligent video surveillance systems for AIoT, including Ancilia and REVAMP2T, enabling privacy-aware multi-camera pedestrian tracking with real-time edge inference across distributed infrastructure (IEEE IoT Journal; 89 and 93 citations)"
       ]
@@ -70,7 +67,6 @@
       "position": "Graduate Research Assistant",
       "startDate": "2017-08-01",
       "endDate": "2021-08-01",
-      "location": "Charlotte, NC",
       "highlights": [
         "Designed algorithm/architecture co-design framework (DeepDive) for deep separable CNNs on Xilinx FPGA, enabling power-efficient edge inference for MobileNetV2 (published at GLSVLSI 2021)",
         "Developed LSTM-based real-time reliability prediction system for power electronics converters, achieving scalable monitoring on IoT edge devices at 1.87W power budget (published in IEEE IoT Journal, 74 citations)",
@@ -99,39 +95,39 @@
   "publications": [
     {
       "name": "MoFM: A Large-Scale Human Motion Foundation Model",
-      "publisher": "arXiv:2502.05432",
+      "publisher": "arXiv:2502.05432, 2025",
       "releaseDate": "2025-02-01",
-      "summary": "6 citations"
+      "summary": "MoFM: A Large-Scale Human Motion Foundation Model (6 citations)"
     },
     {
       "name": "DeepTrack: Lightweight Deep Learning for Vehicle Trajectory Prediction in Highways",
-      "publisher": "IEEE Trans. Intelligent Transportation Systems",
+      "publisher": "IEEE Trans. Intelligent Transportation Systems, 2022",
       "releaseDate": "2022-01-01",
-      "summary": "97 citations"
+      "summary": "DeepTrack: Lightweight Deep Learning for Vehicle Trajectory Prediction in Highways (97 citations)"
     },
     {
       "name": "REVAMP2T: Real-Time Edge Video Analytics for Multicamera Privacy-Aware Pedestrian Tracking",
-      "publisher": "IEEE IoT Journal",
+      "publisher": "IEEE IoT Journal, 2019",
       "releaseDate": "2019-01-01",
-      "summary": "93 citations"
+      "summary": "REVAMP2T: Real-Time Edge Video Analytics for Multicamera Privacy-Aware Pedestrian Tracking (93 citations)"
     },
     {
       "name": "Ancilia: Scalable Intelligent Video Surveillance for the AIoT",
-      "publisher": "IEEE IoT Journal",
+      "publisher": "IEEE IoT Journal, 2023",
       "releaseDate": "2023-01-01",
-      "summary": "89 citations"
+      "summary": "Ancilia: Scalable Intelligent Video Surveillance for the AIoT (89 citations)"
     },
     {
       "name": "Real-Time Deep Learning at the Edge for Scalable Reliability Modeling of Si-MOSFET Power Electronics Converters",
-      "publisher": "IEEE IoT Journal",
+      "publisher": "IEEE IoT Journal, 2019",
       "releaseDate": "2019-01-01",
-      "summary": "74 citations"
+      "summary": "Real-Time Deep Learning at the Edge for Scalable Reliability Modeling of Si-MOSFET Power Electronics Converters (74 citations)"
     },
     {
       "name": "ATCN: Resource-Efficient Processing of Time Series on Edge",
-      "publisher": "ACM Trans. Embedded Computing Systems (TECS)",
+      "publisher": "ACM Trans. Embedded Computing Systems (TECS), 2022",
       "releaseDate": "2022-01-01",
-      "summary": "6 citations"
+      "summary": "ATCN: Resource-Efficient Processing of Time Series on Edge (6 citations)"
     }
   ],
   "awards": [
@@ -145,31 +141,72 @@
   "skills": [
     {
       "name": "Languages",
-      "keywords": ["Python", "C/C++", "Java", "Swift", "CUDA"]
+      "keywords": [
+        "Python",
+        "C/C++",
+        "Java",
+        "Swift",
+        "CUDA"
+      ]
     },
     {
       "name": "ML/DL Frameworks",
-      "keywords": ["PyTorch", "TensorFlow", "CoreML", "ONNX", "Vision Transformers"]
+      "keywords": [
+        "PyTorch",
+        "TensorFlow",
+        "CoreML",
+        "ONNX",
+        "Vision Transformers"
+      ]
     },
     {
       "name": "Apple/Mobile",
-      "keywords": ["SwiftUI", "SceneKit", "Combine", "CoreML", "iOS/iPadOS"]
+      "keywords": [
+        "SwiftUI",
+        "SceneKit",
+        "Combine",
+        "CoreML",
+        "iOS/iPadOS"
+      ]
     },
     {
       "name": "DevOps & Cloud",
-      "keywords": ["Git", "Docker", "AWS (Lambda, S3, DynamoDB)", "Terraform", "ROS 2"]
+      "keywords": [
+        "Git",
+        "Docker",
+        "AWS (Lambda, S3, DynamoDB)",
+        "Terraform",
+        "ROS 2"
+      ]
     },
     {
       "name": "Edge & Embedded",
-      "keywords": ["NVIDIA Jetson", "Xilinx FPGA", "ARM Cortex-M7", "Mixed Precision (FP16/FP32)"]
+      "keywords": [
+        "NVIDIA Jetson",
+        "Xilinx FPGA",
+        "ARM Cortex-M7",
+        "Mixed Precision (FP16/FP32)"
+      ]
     },
     {
       "name": "Signal Processing",
-      "keywords": ["One Euro Filters", "Butterworth IIR", "Median Filters", "Kalman Filtering"]
+      "keywords": [
+        "One Euro Filters",
+        "Butterworth IIR",
+        "Median Filters",
+        "Kalman Filtering"
+      ]
     },
     {
       "name": "Domains",
-      "keywords": ["Computer Vision", "3D Pose Estimation", "Human Motion Understanding", "Self-Supervised Learning", "Embedded AI", "Signal Processing"]
+      "keywords": [
+        "Computer Vision",
+        "3D Pose Estimation",
+        "Human Motion Understanding",
+        "Self-Supervised Learning",
+        "Embedded AI",
+        "Signal Processing"
+      ]
     }
   ]
 }
