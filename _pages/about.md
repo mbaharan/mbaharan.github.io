@@ -7,7 +7,7 @@ subtitle: Senior AI Engineer | Health Sensing & On-Device ML | PhD
 profile:
   align: right
   image: prof_pic.png
-  image_circular: true
+  image_circular: false
   more_info:
 
 selected_papers: true
