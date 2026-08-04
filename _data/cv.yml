@@ -19,7 +19,7 @@ cv:
         end_date: present
         location: Charlotte, NC
         highlights:
-          - Architected and deployed real-time 3D human pose estimation pipeline on iPad achieving 30fps inference for clinical mobility assessments (CDC STEADI: TUG, 30-Second Chair Stand, 4-Stage Balance)
+          - "Architected and deployed real-time 3D human pose estimation pipeline on iPad achieving 30fps inference for clinical mobility assessments (CDC STEADI: TUG, 30-Second Chair Stand, 4-Stage Balance)"
           - Engineered on-device AI inference system using CoreML and SceneKit, eliminating cloud dependencies and reducing model bundle size by migrating from third-party ML frameworks to native Apple infrastructure
           - Designed multi-stage signal processing pipeline (One Euro filters, Butterworth IIR, median filters) achieving clinical-grade measurement accuracy for joint angle computation and gait analysis
           - Built multi-agent AI orchestration system automating regulatory compliance analysis for CMS CY 2026 Medicare RTM billing codes, producing audit-ready documentation, workbooks, and presentations
@@ -55,7 +55,7 @@ cv:
           - Developed LSTM-based real-time reliability prediction system for power electronics converters, achieving scalable monitoring on IoT edge devices at 1.87W power budget (published in IEEE IoT Journal, 74 citations)
           - Created lightweight temporal convolutional network for vehicle trajectory prediction in highways, matching state-of-the-art accuracy with significantly reduced computational complexity (published in IEEE TITS, 97 citations)
           - Co-developed gem5-SALAM system architecture simulator for LLVM-based accelerator modeling (74 citations, IEEE/ACM MICRO 2020)
-          - Published 12+ peer-reviewed papers across IEEE, ACM venues accumulating 645+ citations (h-index: 11) spanning edge AI, FPGA acceleration, intelligent transportation, and IoT
+          - "Published 12+ peer-reviewed papers across IEEE, ACM venues accumulating 645+ citations (h-index: 11) spanning edge AI, FPGA acceleration, intelligent transportation, and IoT"
           - Designed attention-based temporal convolutional networks (ATCN) enabling fast time-series classification on resource-constrained embedded devices with formalized hyperparameters for application-specific architecture tuning (published in ACM TECS)
           - Deployed ATCN on Cortex-M7 microcontroller consuming only 49% of 320KB RAM and 15% of 1MB flash; validated across 70 UCR 2018 time-series benchmarks using data augmentation (jittering, magnitude warping, window warping, scaling)
           - Developed real-time person re-identification system at the edge using mixed precision (FP16/FP32) inference, achieving efficient tracking on embedded GPUs with MobileNetV2 backbone (published at ICIAR 2019, 17 citations)
