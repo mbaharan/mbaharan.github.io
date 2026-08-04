@@ -139,3 +139,20 @@ cv:
         details: One Euro Filters, Butterworth IIR, Median Filters, Kalman Filtering
       - label: Domains
         details: Computer Vision, 3D Pose Estimation, Human Motion Understanding, Self-Supervised Learning, Embedded AI, Signal Processing
+design:
+  theme: classic
+  page:
+    size: us-letter
+    show_footer: false
+    show_top_note: false
+locale:
+  language: english
+settings:
+  render_command:
+    output_folder: ../assets/rendercv/rendercv_output
+    dont_generate_markdown: true
+    dont_generate_html: true
+    dont_generate_png: true
+    dont_generate_typst: false
+    dont_generate_pdf: false
+  bold_keywords: []
