@@ -10,31 +10,40 @@
   type: time_table
   contents:
     - title: Senior AI Engineer
-      institution: ForesightCares Inc., Charlotte, NC
+      institution: ForesightCares Inc.
       year: 2022 - Present
       description:
-        - Real-time 3D human pose estimation on iPad achieving 30fps inference for clinical mobility assessments (CDC STEADI protocols)
-        - Multi-stage signal processing pipeline for clinical-grade gait analysis and joint angle computation
-        - On-device AI inference using CoreML and SceneKit, eliminating cloud dependencies
+        - Real-time 3D human pose estimation pipeline on iPad achieving 30fps inference for clinical mobility assessments (CDC STEADI - TUG, 30-Second Chair Stand, 4-Stage Balance)
+        - On-device AI inference using CoreML and SceneKit, eliminating cloud dependencies and reducing model bundle size
+        - Multi-stage signal processing pipeline (One Euro filters, Butterworth IIR, median filters) achieving clinical-grade measurement accuracy for joint angle computation and gait analysis
+        - State machine architecture orchestrating 5+ clinical assessment protocols with hysteresis-based state transitions and real-time feedback
+        - Multi-agent AI orchestration system automating regulatory compliance analysis for CMS CY 2026 Medicare RTM billing codes
+        - Serverless AI-powered exercise recommendation service on AWS Lambda with Jinja2-based prompt engineering
+        - Field-of-View calibration model correcting 3D pose estimation across varying camera angles
+        - Created 3D motion capture dataset using IMU-based mocap system (100+ subjects, synchronized 60fps video and 400Hz motion data)
         - Co-inventor, US Patent 12,343,138 B2 - AI-Powered Mobility Assessment System
-        - 3D motion capture dataset collection using IMU-based mocap (100+ subjects, synchronized 60fps video and 400Hz motion data)
 
     - title: Research Scientist
-      institution: UNC Charlotte (TeCSAR Lab), Charlotte, NC
+      institution: UNC Charlotte (TeCSAR Lab)
       year: 2021 - 2022, 2024 - 2025
       description:
-        - Self-supervised human motion foundation model (MoFM) using discrete tokenization and Vision Transformer pretraining
-        - Scalable intelligent video surveillance for AIoT (Ancilia, REVAMP2T) with 89 and 93 citations respectively
+        - Self-supervised human motion foundation model (MoFM) using discrete motion tokenization and Vision Transformer pretraining
+        - Achieved 89.4% action classification accuracy, 57.4% one-shot recognition, and 76.56% AUC-ROC for anomaly detection
+        - Scalable intelligent video surveillance for AIoT (Ancilia, REVAMP2T) - privacy-aware multi-camera pedestrian tracking with real-time edge inference
+        - IEEE IoT Journal publications with 89 and 93 citations respectively
 
     - title: Graduate Research Assistant
-      institution: UNC Charlotte (TeCSAR Lab), Charlotte, NC
+      institution: UNC Charlotte (TeCSAR Lab)
       year: 2017 - 2021
       description:
-        - ATCN - Attention-based temporal convolutional networks for time-series classification on edge devices (ACM TECS)
-        - DeepTrack - Lightweight vehicle trajectory prediction using TCNs (IEEE TITS, 97 citations)
-        - LSTM-based real-time reliability prediction for IoT edge devices (IEEE IoT Journal, 74 citations)
-        - Algorithm/architecture co-design framework (DeepDive) for FPGA-based DNN acceleration
-        - Published 12+ peer-reviewed papers, 645+ citations, h-index 11
+        - Attention-based temporal convolutional networks (ATCN) for time-series classification on resource-constrained embedded devices (published in ACM TECS)
+        - Deployed ATCN on Cortex-M7 microcontroller consuming only 49% of 320KB RAM and 15% of 1MB flash; validated across 70 UCR 2018 benchmarks
+        - Lightweight temporal convolutional network for vehicle trajectory prediction (DeepTrack) achieving real-time inference (IEEE TITS, 97 citations)
+        - LSTM-based real-time reliability prediction for power electronics converters on IoT edge at 1.87W power budget (IEEE IoT Journal, 74 citations)
+        - Algorithm/architecture co-design framework (DeepDive) for deep separable CNNs on Xilinx FPGA (GLSVLSI 2021)
+        - Co-developed gem5-SALAM system architecture simulator for LLVM-based accelerator modeling (74 citations, IEEE/ACM MICRO 2020)
+        - Real-time person re-identification at the edge using mixed precision (FP16/FP32) inference with MobileNetV2 backbone (ICIAR 2019, 17 citations)
+        - Published 12+ peer-reviewed papers across IEEE and ACM venues, 645+ citations, h-index 11
 
 - title: Education
   type: time_table
@@ -49,15 +58,30 @@
 - title: Technical Skills
   type: nested_list
   contents:
-    - title: Languages & Frameworks
+    - title: Languages
       items:
-        - Python, PyTorch, TensorFlow, CoreML, CUDA, C/C++, Swift
-    - title: Tools & Platforms
+        - Python, C/C++, Java, Swift, CUDA
+    - title: ML/DL Frameworks
       items:
-        - Docker, AWS (Lambda, S3, DynamoDB), Git, Linux, iOS/iPadOS
+        - PyTorch, TensorFlow, CoreML, ONNX, Vision Transformers
+    - title: Apple/Mobile
+      items:
+        - SwiftUI, SceneKit, Combine, CoreML, iOS/iPadOS
+    - title: DevOps & Cloud
+      items:
+        - Git, Docker, AWS (Lambda, S3, DynamoDB), Terraform
+    - title: Edge & Embedded
+      items:
+        - NVIDIA Jetson, Xilinx FPGA, ARM Cortex-M7, Mixed Precision (FP16/FP32)
+    - title: Robotics
+      items:
+        - ROS 2
+    - title: Signal Processing
+      items:
+        - One Euro Filters, Butterworth IIR, Median Filters, Kalman Filtering
     - title: Domains
       items:
-        - Signal Processing, Computer Vision, Human Motion Understanding, Self-Supervised Learning, Edge AI, Time-Series Analysis
+        - Computer Vision, 3D Pose Estimation, Human Motion Understanding, Self-Supervised Learning, Trajectory Prediction, Multimodal AI, Embedded AI, Signal Processing, Person Re-identification, Video Surveillance, Action Recognition, Anomaly Detection
 
 - title: Honors and Awards
   type: time_table

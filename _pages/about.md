@@ -8,8 +8,7 @@ profile:
   align: right
   image: prof_pic.png
   image_circular: true
-  more_info: >
-    <p>Charlotte, NC</p>
+  more_info:
 
 selected_papers: true
 social: true
