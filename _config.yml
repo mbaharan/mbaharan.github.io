@@ -7,13 +7,14 @@ first_name: Reza
 middle_name:
 last_name: Baharani
 contact_note: >
+  For professional and research inquiries, contact me at <a href="mailto:baharanireza@gmail.com">baharanireza@gmail.com</a>.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Senior AI Engineer specializing in health sensing, on-device ML, and edge intelligence. 
-  PhD in ECE from UNC Charlotte. 645+ citations. US Patent holder.
+  Senior AI Engineer and researcher building production inference, distributed edge/cloud AI, and agentic systems.
+  PhD in ECE from UNC Charlotte. 657 citations. US Patent holder.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: machine-learning, deep-learning, health-sensing, edge-ai, computer-vision, on-device-ml, coreml, signal-processing
+keywords: machine-learning, deep-learning, ai-infrastructure, distributed-ai, agentic-ai, edge-ai, computer-vision, on-device-ml, mlops, self-supervised-learning, signal-processing
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 apple_touch_icon: # image name in /assets/img/ (or a rooted path / absolute URL) used for iOS home-screen bookmarks; needs a real 180x180 PNG, since Safari ignores the emoji favicon above. Left empty, iOS falls back to a screenshot of the page.

@@ -1,41 +1,52 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Senior AI Engineer
+    - title: Senior AI/ML Engineer
       institution: ForesightCares Inc.
-      year: 2022 - Present
+      year: Apr. 2025 - Present
       description:
-        - "Architected and deployed real-time 3D human pose estimation pipeline on iPad achieving 30fps inference for clinical mobility assessments (CDC STEADI: TUG, 30-Second Chair Stand, 4-Stage Balance)"
-        - Engineered on-device AI inference system using CoreML and SceneKit, eliminating cloud dependencies and reducing model bundle size by migrating from third-party ML frameworks to native Apple infrastructure
-        - Designed multi-stage signal processing pipeline (One Euro filters, Butterworth IIR, median filters) achieving clinical-grade measurement accuracy for joint angle computation and gait analysis
-        - Built multi-agent AI orchestration system automating regulatory compliance analysis for CMS CY 2026 Medicare RTM billing codes, producing audit-ready documentation, workbooks, and presentations
-        - Built serverless AI-powered exercise recommendation service on AWS Lambda, leveraging cloud inference and Jinja2-based prompt engineering to deliver personalized mobility programs from a curated library of 41 exercises based on CDC STEADI fall-risk protocols
+        - Architected multi-agent AI workflows that automate complex healthcare compliance research and generate structured, review-ready documentation
+        - Built a cloud-native serverless AI service on AWS Lambda to deliver personalized exercise recommendations from curated clinical protocols
+        - Implemented scalable state-machine architecture for 5+ assessment protocols with automated monitoring and robust handling of multi-user scenarios
         - Developed Field-of-View calibration model to correct 3D pose estimation across varying camera angles, improving measurement accuracy for at-home and clinical deployment scenarios
-        - Implemented state machine architecture for 5+ clinical assessment protocols with hysteresis-based transitions, handling edge cases including camera occlusion and multi-person environments
-        - Co-invented AI-powered mobility assessment system (US Patent 12,343,138 B2), enabling automated fall risk evaluation and real-time exercise coaching via 3D skeleton modeling from monocular video
-        - Created 3D motion capture dataset using IMU-based mocap system for training and validation, collecting synchronized 60fps video and 400Hz motion data from 100+ subjects to validate pose estimation accuracy
+        - Created 3D motion capture dataset using IMU-based mocap system for training and validation, collecting synchronized 60fps video and 400Hz motion data from 100+ subjects to train, validate and test our in-house pose estimator
+        - Designed a multi-stage signal processing pipeline that improved measurement stability and accuracy for joint-angle computation and gait analysis
 
     - title: Research Scientist
       institution: UNC Charlotte
-      year: 2024 - 2025
+      year: Oct. 2024 - Mar. 2025
       description:
-        - Developed self-supervised human motion foundation model using discrete motion tokenization and Vision Transformer pretraining, achieving competitive action classification (89.4%), one-shot recognition (57.4%), and anomaly detection (76.56% AUC-ROC) with a single unified backbone
+        - Developed a self-supervised foundation model with tokenized Vision Transformers, achieving 89.4% action classification and 76.56% AUC-ROC on anomaly detection; accepted to BMVC 2026
 
-    - title: Postdoctoral Researcher
-      institution: UNC Charlotte
-      year: 2021 - 2022
+    - title: ML/AI Engineer
+      institution: ForesightCares Inc.
+      year: 2022 - Sep. 2024
       description:
-        - Architected scalable intelligent video surveillance systems for AIoT, including Ancilia and REVAMP2T, enabling privacy-aware multi-camera pedestrian tracking with real-time edge inference across distributed infrastructure (IEEE IoT Journal; 89 and 93 citations)
+        - Architected and deployed an end-to-end AI/ML inference pipeline achieving 30fps real-time 3D human pose estimation, from data collection through production deployment and monitoring
+        - Engineered a cross-platform edge inference system with model optimization and deployment automation, eliminating cloud dependencies and reducing model bundle size through native infrastructure
+        - Co-invented AI-powered mobility assessment system (US Patent 12,343,138 B2), enabling automated fall risk evaluation and real-time exercise coaching via 3D skeleton modeling from monocular video
+
+    - title: Research Scientist
+      institution: UNC Charlotte
+      year: Aug. 2021 - 2022
+      description:
+        - Architected enterprise-scale distributed AI infrastructure enabling real-time multi-camera inference across hybrid edge/cloud deployments with privacy-aware data governance
+
+    - title: FPGA Deployment Systems Engineer (Internship)
+      institution: Astranis Space Technologies
+      year: Dec. 2020 - Mar. 2021
+      description:
+        - Supported FPGA deployment engineering for satellite systems, applying reconfigurable-computing and hardware/software integration expertise in an industry production environment
 
     - title: Graduate Research Assistant
       institution: UNC Charlotte
       year: 2017 - 2021
       description:
-        - Designed algorithm/architecture co-design framework (DeepDive) for deep separable CNNs on Xilinx FPGA, enabling power-efficient edge inference for MobileNetV2 (published at GLSVLSI 2021)
-        - Developed LSTM-based real-time reliability prediction system for power electronics converters, achieving scalable monitoring on IoT edge devices at 1.87W power budget (published in IEEE IoT Journal, 74 citations)
+        - Designed an algorithm-architecture co-design framework for neural networks on heterogeneous compute platforms, enabling power-efficient inference through hardware-software optimization
+        - Developed a scalable real-time monitoring and reliability-prediction system for IoT infrastructure operating within a 1.87W power budget
         - Created lightweight temporal convolutional network for vehicle trajectory prediction in highways, matching state-of-the-art accuracy with significantly reduced computational complexity (published in IEEE TITS, 97 citations)
-        - Co-developed gem5-SALAM system architecture simulator for LLVM-based accelerator modeling (74 citations, IEEE/ACM MICRO 2020)
-        - "Published 12+ peer-reviewed papers across IEEE, ACM venues accumulating 645+ citations (h-index: 11) spanning edge AI, FPGA acceleration, intelligent transportation, and IoT"
+        - Co-developed an LLVM-based system architecture simulator for accelerator modeling (74 citations, IEEE/ACM MICRO 2020)
+        - "Published 12+ peer-reviewed papers across IEEE and ACM venues with 657 citations (h-index: 11) spanning AI systems, model optimization, and distributed computing"
         - Designed attention-based temporal convolutional networks (ATCN) enabling fast time-series classification on resource-constrained embedded devices with formalized hyperparameters for application-specific architecture tuning (published in ACM TECS)
         - Deployed ATCN on Cortex-M7 microcontroller consuming only 49% of 320KB RAM and 15% of 1MB flash; validated across 70 UCR 2018 time-series benchmarks using data augmentation (jittering, magnitude warping, window warping, scaling)
         - Developed real-time person re-identification system at the edge using mixed precision (FP16/FP32) inference, achieving efficient tracking on embedded GPUs with MobileNetV2 backbone (published at ICIAR 2019, 17 citations)
@@ -60,42 +71,36 @@
 - title: Selected Publications
   type: time_table
   contents:
-    - year: 2025
+    - year: 2026
       items:
-        - "MoFM: A Large-Scale Human Motion Foundation Model. arXiv:2502.05432 (6 citations)"
+        - "A Feasibility Study on Self-Supervised LLM-Inspired Training for Generalizable Human Motion Understanding. BMVC 2026 (accepted; arXiv:2502.05432)"
     - year: 2023
       items:
         - "Ancilia: Scalable Intelligent Video Surveillance for the AIoT. IEEE IoT Journal (89 citations)"
     - year: 2022
       items:
-        - "DeepTrack: Lightweight Deep Learning for Vehicle Trajectory Prediction in Highways. IEEE TITS (97 citations)"
         - "ATCN: Resource-Efficient Processing of Time Series on Edge. ACM TECS (6 citations)"
+        - "DeepTrack: Lightweight Deep Learning for Vehicle Trajectory Prediction in Highways. IEEE TITS (97 citations)"
     - year: 2019
       items:
-        - "REVAMP2T: Real-Time Edge Video Analytics for Multicamera Privacy-Aware Pedestrian Tracking. IEEE IoT Journal (93 citations)"
         - "Real-Time Deep Learning at the Edge for Scalable Reliability Modeling of Si-MOSFET Power Electronics Converters. IEEE IoT Journal (74 citations)"
+        - "REVAMP2T: Real-Time Edge Video Analytics for Multicamera Privacy-Aware Pedestrian Tracking. IEEE IoT Journal (93 citations)"
 
 - title: Technical Skills
   type: nested_list
   contents:
-    - title: Languages
+    - title: AI & Machine Learning
       items:
-        - Python, C/C++, Java, Swift, CUDA
-    - title: ML/DL Frameworks
+        - Deep Learning, Computer Vision, Human Motion Understanding, 3D Pose Estimation, Self-Supervised Learning, Vision Transformers, Time-Series Modeling, Signal Processing, Generative AI, Agentic AI, RAG, Multimodal AI
+    - title: AI Systems & Optimization
       items:
-        - PyTorch, TensorFlow, CoreML, ONNX, Vision Transformers
-    - title: Apple/Mobile
+        - AI Inference & Serving, Distributed AI Systems, Edge AI, MLOps, Multi-Agent Orchestration, Model Optimization, Quantization, Knowledge Distillation, Pruning, Hardware/Software Co-design
+    - title: Languages & Frameworks
       items:
-        - SwiftUI, SceneKit, Combine, CoreML, iOS/iPadOS
-    - title: DevOps & Cloud
+        - Python, C/C++, CUDA, Java, SQL, PyTorch, TensorFlow, ONNX, LangChain, Flask
+    - title: Infrastructure & Platforms
       items:
-        - Git, Docker, AWS (Lambda, S3, DynamoDB), Terraform, ROS 2
-    - title: Edge & Embedded
+        - AWS, AWS Lambda, Docker, Kubernetes, Terraform, GitHub Actions, Linux, Git, iOS/iPadOS
+    - title: Hardware & Compilers
       items:
-        - NVIDIA Jetson, Xilinx FPGA, ARM Cortex-M7, Mixed Precision (FP16/FP32)
-    - title: Signal Processing
-      items:
-        - One Euro Filters, Butterworth IIR, Median Filters, Kalman Filtering
-    - title: Domains
-      items:
-        - Computer Vision, 3D Pose Estimation, Human Motion Understanding, Self-Supervised Learning, Embedded AI, Signal Processing
+        - NVIDIA Jetson, FPGA, ASIC, Cortex-M, HLS, HDL, MLIR

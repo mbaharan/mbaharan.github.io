@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Senior AI Engineer | Health Sensing & On-Device ML | PhD
+subtitle: Senior AI Engineer | AI Infrastructure, Edge Intelligence & Agentic AI | PhD
 
 profile:
   align: right
@@ -24,19 +24,19 @@ latest_posts:
   limit: 3
 ---
 
-I build machine learning systems that run on the edge — from clinical health sensing on Apple devices to scalable video intelligence on embedded GPUs. My work spans the full ML pipeline: biomedical signal processing, deep learning architecture design, on-device optimization (CoreML, TensorFlow Lite), and real-world clinical validation.
+I build production AI systems spanning real-time inference, distributed edge/cloud infrastructure, and agentic workflows. My work covers the full ML lifecycle—from data collection and architecture design to optimization, deployment, monitoring, and product delivery.
 
-Currently, I'm a **Senior AI Engineer at [ForesightCares](https://foresightcares.com/)**, where I develop real-time 3D human pose estimation systems for clinical mobility assessment. Our iPad-based platform achieves 30fps inference using CoreML and implements CDC STEADI fall-risk protocols, enabling objective measurement of gait, balance, and functional mobility. This work led to a [US Patent (12,343,138 B2)](https://patents.google.com/patent/US12343138B2) for AI-powered mobility assessment.
+Currently, I'm a **Senior AI Engineer at [ForesightCares](https://foresightcares.com/)**, where I architect production inference systems for clinical mobility assessment. Our platform performs real-time 3D human pose estimation at 30fps and supports multiple assessment protocols across at-home and clinical settings. This work led to a [US Patent (12,343,138 B2)](https://patents.google.com/patent/US12343138B2) for AI-powered mobility assessment.
 
-I also conduct research at **[TeCSAR Lab](https://tecsar-uncc.github.io/)** at UNC Charlotte, where I've contributed to self-supervised human motion foundation models and scalable intelligent video surveillance systems for the AIoT.
+As a Research Scientist at **[TeCSAR Lab](https://tecsar-uncc.github.io/)** at UNC Charlotte, I developed self-supervised foundation models for human motion and distributed AI infrastructure for privacy-aware, real-time multi-camera inference. Our latest LLM-inspired human motion work has been accepted to **BMVC 2026**.
 
 My research interests include:
-- **Health Sensing & Biomedical Signal Processing** — Time-series analysis from wearable sensors, clinical measurement validation
-- **On-Device ML** — CoreML, TensorFlow Lite, edge inference optimization, model compression
-- **3D Human Pose Estimation** — Monocular video to skeleton, motion understanding, action recognition
-- **Self-Supervised Learning** — Foundation models for human motion, discrete tokenization, Vision Transformers
-- **Edge AI & Embedded Systems** — Real-time inference on resource-constrained devices, FPGA acceleration
+- **AI Systems & Infrastructure** — Distributed inference, hybrid edge/cloud deployment, observability, and MLOps
+- **Efficient AI** — Hardware/software co-design, model optimization, and power-efficient inference
+- **Agentic AI** — Multi-agent orchestration, generative AI workflows, and compliance automation
+- **Self-Supervised Learning** — Foundation models, discrete tokenization, and Vision Transformers
+- **Human Motion Understanding** — 3D pose estimation, action recognition, and clinical mobility analytics
 
 I earned my **Ph.D. in Electrical & Computer Engineering** from UNC Charlotte, where I developed lightweight temporal convolutional networks for time-series classification on microcontrollers and contributed to algorithm/architecture co-design for FPGA-based DNN acceleration.
 
-I have published **12+ peer-reviewed papers** across IEEE and ACM venues, accumulating **645+ citations** (h-index: 11). My work has been featured in IEEE Transactions on Intelligent Transportation Systems, IEEE Internet of Things Journal, and ACM Transactions on Embedded Computing Systems.
+I have published **12+ peer-reviewed papers** across IEEE and ACM venues, accumulating **657 citations** (h-index: 11). My work has appeared in IEEE Transactions on Intelligent Transportation Systems, IEEE Internet of Things Journal, ACM Transactions on Embedded Computing Systems, and BMVC.

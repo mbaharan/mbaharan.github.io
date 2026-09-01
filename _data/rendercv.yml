@@ -1,8 +1,8 @@
 cv:
   name: Reza Baharani
-  headline: Senior AI Engineer | Health Sensing & On-Device ML | PhD
+  headline: Senior AI Engineer | AI Infrastructure, Edge Intelligence & Agentic AI | PhD
   location: Charlotte, NC
-  email: reza@baharani.info
+  email: baharanireza@gmail.com
   website: https://mbaharan.github.io
   social_networks:
     - network: LinkedIn
@@ -14,20 +14,17 @@ cv:
   sections:
     experience:
       - company: ForesightCares Inc.
-        position: Senior AI Engineer
-        start_date: 2022-01
+        position: Senior AI/ML Engineer
+        start_date: 2025-04
         end_date: present
         location: Charlotte, NC
         highlights:
-          - "Architected and deployed real-time 3D human pose estimation pipeline on iPad achieving 30fps inference for clinical mobility assessments (CDC STEADI: TUG, 30-Second Chair Stand, 4-Stage Balance)"
-          - Engineered on-device AI inference system using CoreML and SceneKit, eliminating cloud dependencies and reducing model bundle size by migrating from third-party ML frameworks to native Apple infrastructure
-          - Designed multi-stage signal processing pipeline (One Euro filters, Butterworth IIR, median filters) achieving clinical-grade measurement accuracy for joint angle computation and gait analysis
-          - Built multi-agent AI orchestration system automating regulatory compliance analysis for CMS CY 2026 Medicare RTM billing codes, producing audit-ready documentation, workbooks, and presentations
-          - Built serverless AI-powered exercise recommendation service on AWS Lambda, leveraging cloud inference and Jinja2-based prompt engineering to deliver personalized mobility programs from a curated library of 41 exercises based on CDC STEADI fall-risk protocols
+          - Architected multi-agent AI workflows that automate complex healthcare compliance research and generate structured, review-ready documentation
+          - Built a cloud-native serverless AI service on AWS Lambda to deliver personalized exercise recommendations from curated clinical protocols
+          - Implemented scalable state-machine architecture for 5+ assessment protocols with automated monitoring and robust handling of multi-user scenarios
           - Developed Field-of-View calibration model to correct 3D pose estimation across varying camera angles, improving measurement accuracy for at-home and clinical deployment scenarios
-          - Implemented state machine architecture for 5+ clinical assessment protocols with hysteresis-based transitions, handling edge cases including camera occlusion and multi-person environments
-          - Co-invented AI-powered mobility assessment system (US Patent 12,343,138 B2), enabling automated fall risk evaluation and real-time exercise coaching via 3D skeleton modeling from monocular video
-          - Created 3D motion capture dataset using IMU-based mocap system for training and validation, collecting synchronized 60fps video and 400Hz motion data from 100+ subjects to validate pose estimation accuracy
+          - Created 3D motion capture dataset using IMU-based mocap system for training and validation, collecting synchronized 60fps video and 400Hz motion data from 100+ subjects to train, validate and test our in-house pose estimator
+          - Designed a multi-stage signal processing pipeline that improved measurement stability and accuracy for joint-angle computation and gait analysis
 
       - company: UNC Charlotte
         position: Research Scientist
@@ -35,15 +32,32 @@ cv:
         end_date: 2025-03
         location: Charlotte, NC
         highlights:
-          - Developed self-supervised human motion foundation model using discrete motion tokenization and Vision Transformer pretraining, achieving competitive action classification (89.4%), one-shot recognition (57.4%), and anomaly detection (76.56% AUC-ROC) with a single unified backbone
+          - Developed a self-supervised foundation model with tokenized Vision Transformers, achieving 89.4% action classification and 76.56% AUC-ROC on anomaly detection; accepted to BMVC 2026
+
+      - company: ForesightCares Inc.
+        position: ML/AI Engineer
+        start_date: 2022-01
+        end_date: 2024-09
+        location: Charlotte, NC
+        highlights:
+          - Architected and deployed an end-to-end AI/ML inference pipeline achieving 30fps real-time 3D human pose estimation, from data collection through production deployment and monitoring
+          - Engineered a cross-platform edge inference system with model optimization and deployment automation, eliminating cloud dependencies and reducing model bundle size through native infrastructure
+          - Co-invented AI-powered mobility assessment system (US Patent 12,343,138 B2), enabling automated fall risk evaluation and real-time exercise coaching via 3D skeleton modeling from monocular video
 
       - company: UNC Charlotte
-        position: Postdoctoral Researcher
+        position: Research Scientist
         start_date: 2021-08
         end_date: 2022-12
         location: Charlotte, NC
         highlights:
-          - Architected scalable intelligent video surveillance systems for AIoT, including Ancilia and REVAMP2T, enabling privacy-aware multi-camera pedestrian tracking with real-time edge inference across distributed infrastructure (IEEE IoT Journal; 89 and 93 citations)
+          - Architected enterprise-scale distributed AI infrastructure enabling real-time multi-camera inference across hybrid edge/cloud deployments with privacy-aware data governance
+
+      - company: Astranis Space Technologies
+        position: FPGA Deployment Systems Engineer (Internship)
+        start_date: 2020-12
+        end_date: 2021-03
+        highlights:
+          - Supported FPGA deployment engineering for satellite systems, applying reconfigurable-computing and hardware/software integration expertise in an industry production environment
 
       - company: UNC Charlotte
         position: Graduate Research Assistant
@@ -51,11 +65,11 @@ cv:
         end_date: 2021-08
         location: Charlotte, NC
         highlights:
-          - Designed algorithm/architecture co-design framework (DeepDive) for deep separable CNNs on Xilinx FPGA, enabling power-efficient edge inference for MobileNetV2 (published at GLSVLSI 2021)
-          - Developed LSTM-based real-time reliability prediction system for power electronics converters, achieving scalable monitoring on IoT edge devices at 1.87W power budget (published in IEEE IoT Journal, 74 citations)
+          - Designed an algorithm-architecture co-design framework for neural networks on heterogeneous compute platforms, enabling power-efficient inference through hardware-software optimization
+          - Developed a scalable real-time monitoring and reliability-prediction system for IoT infrastructure operating within a 1.87W power budget
           - Created lightweight temporal convolutional network for vehicle trajectory prediction in highways, matching state-of-the-art accuracy with significantly reduced computational complexity (published in IEEE TITS, 97 citations)
-          - Co-developed gem5-SALAM system architecture simulator for LLVM-based accelerator modeling (74 citations, IEEE/ACM MICRO 2020)
-          - "Published 12+ peer-reviewed papers across IEEE, ACM venues accumulating 645+ citations (h-index: 11) spanning edge AI, FPGA acceleration, intelligent transportation, and IoT"
+          - Co-developed an LLVM-based system architecture simulator for accelerator modeling (74 citations, IEEE/ACM MICRO 2020)
+          - "Published 12+ peer-reviewed papers across IEEE and ACM venues with 657 citations (h-index: 11) spanning AI systems, model optimization, and distributed computing"
           - Designed attention-based temporal convolutional networks (ATCN) enabling fast time-series classification on resource-constrained embedded devices with formalized hyperparameters for application-specific architecture tuning (published in ACM TECS)
           - Deployed ATCN on Cortex-M7 microcontroller consuming only 49% of 320KB RAM and 15% of 1MB flash; validated across 70 UCR 2018 time-series benchmarks using data augmentation (jittering, magnitude warping, window warping, scaling)
           - Developed real-time person re-identification system at the edge using mixed precision (FP16/FP32) inference, achieving efficient tracking on embedded GPUs with MobileNetV2 backbone (published at ICIAR 2019, 17 citations)
@@ -72,31 +86,15 @@ cv:
           - "Focus: Computer Architecture and Deep Learning"
 
     publications:
-      - title: "MoFM: A Large-Scale Human Motion Foundation Model"
+      - title: "A Feasibility Study on Self-Supervised LLM-Inspired Training for Generalizable Human Motion Understanding"
         authors:
           - "*Reza Baharani*"
           - G.A. Noghre
           - A.D. Pazho
           - G. Maldonado
           - H. Tabkhi
-        journal: arXiv:2502.05432
-        date: 2025-02
-      - title: "DeepTrack: Lightweight Deep Learning for Vehicle Trajectory Prediction in Highways"
-        authors:
-          - V. Katariya
-          - "*Reza Baharani*"
-          - et al.
-        journal: IEEE Trans. Intelligent Transportation Systems
-        date: 2022-01
-      - title: "REVAMP2T: Real-Time Edge Video Analytics for Multicamera Privacy-Aware Pedestrian Tracking"
-        authors:
-          - C. Neff
-          - M. Mendieta
-          - S. Mohan
-          - "*Reza Baharani*"
-          - et al.
-        journal: IEEE IoT Journal
-        date: 2019-01
+        journal: British Machine Vision Conference (BMVC), accepted; arXiv:2502.05432
+        date: 2026-08
       - title: "Ancilia: Scalable Intelligent Video Surveillance for the AIoT"
         authors:
           - A.D. Pazho
@@ -108,37 +106,49 @@ cv:
           - H. Tabkhi
         journal: IEEE IoT Journal
         date: 2023-01
-      - title: "Real-Time Deep Learning at the Edge for Scalable Reliability Modeling of Si-MOSFET Power Electronics Converters"
-        authors:
-          - "*Reza Baharani*"
-          - et al.
-        journal: IEEE IoT Journal
-        date: 2019-01
       - title: "ATCN: Resource-Efficient Processing of Time Series on Edge"
         authors:
           - "*Reza Baharani*"
           - H. Tabkhi
         journal: ACM Trans. Embedded Computing Systems (TECS)
         date: 2022-01
+      - title: "DeepTrack: Lightweight Deep Learning for Vehicle Trajectory Prediction in Highways"
+        authors:
+          - V. Katariya
+          - "*Reza Baharani*"
+          - et al.
+        journal: IEEE Trans. Intelligent Transportation Systems
+        date: 2022-01
+      - title: "Real-Time Deep Learning at the Edge for Scalable Reliability Modeling of Si-MOSFET Power Electronics Converters"
+        authors:
+          - "*Reza Baharani*"
+          - et al.
+        journal: IEEE IoT Journal
+        date: 2019-01
+      - title: "REVAMP2T: Real-Time Edge Video Analytics for Multicamera Privacy-Aware Pedestrian Tracking"
+        authors:
+          - C. Neff
+          - M. Mendieta
+          - S. Mohan
+          - "*Reza Baharani*"
+          - et al.
+        journal: IEEE IoT Journal
+        date: 2019-01
 
     patents:
       - bullet: "US 12,343,138 B2: AI Powered Mobility Assessment System, ForesightCares Inc., Jul. 2025. Inventors: H. Tabkhivayghan, M. Azarbayjani, R. Baharani."
 
     skills:
-      - label: Languages
-        details: Python, C/C++, Java, Swift, CUDA
-      - label: ML/DL Frameworks
-        details: PyTorch, TensorFlow, CoreML, ONNX, Vision Transformers
-      - label: Apple/Mobile
-        details: SwiftUI, SceneKit, Combine, CoreML, iOS/iPadOS
-      - label: DevOps & Cloud
-        details: Git, Docker, AWS (Lambda, S3, DynamoDB), Terraform, ROS 2
-      - label: Edge & Embedded
-        details: NVIDIA Jetson, Xilinx FPGA, ARM Cortex-M7, Mixed Precision (FP16/FP32)
-      - label: Signal Processing
-        details: One Euro Filters, Butterworth IIR, Median Filters, Kalman Filtering
-      - label: Domains
-        details: Computer Vision, 3D Pose Estimation, Human Motion Understanding, Self-Supervised Learning, Embedded AI, Signal Processing
+      - label: AI & Machine Learning
+        details: Deep Learning, Computer Vision, Human Motion Understanding, 3D Pose Estimation, Self-Supervised Learning, Vision Transformers, Time-Series Modeling, Signal Processing, Generative AI, Agentic AI, RAG, Multimodal AI
+      - label: AI Systems & Optimization
+        details: AI Inference & Serving, Distributed AI Systems, Edge AI, MLOps, Multi-Agent Orchestration, Model Optimization, Quantization, Knowledge Distillation, Pruning, Hardware/Software Co-design
+      - label: Languages & Frameworks
+        details: Python, C/C++, CUDA, Java, SQL, PyTorch, TensorFlow, ONNX, LangChain, Flask
+      - label: Infrastructure & Platforms
+        details: AWS, AWS Lambda, Docker, Kubernetes, Terraform, GitHub Actions, Linux, Git, iOS/iPadOS
+      - label: Hardware & Compilers
+        details: NVIDIA Jetson, FPGA, ASIC, Cortex-M, HLS, HDL, MLIR
 design:
   theme: classic
   page:
